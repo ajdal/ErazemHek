@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May 19 18:57:46 2018
+from flask import Flask
+from flask import render_template
 
-@author: jure
-"""
+app = Flask(__name__)
 
-print("test")
+@app.route('/')
+def hello_world():
+    return render_template('index.html')
+    

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="/static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					University preferences
+				</span>
+
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" formaction="/statistics">
+						Statistics and recommendations
+					</button>
+				</div>
+
+				<label class="label-input100" for="phone">First choice</label>
+				<select>
+					<option value="none"></option>
+  					<option value="University of Vienna">University of Vienna</option>
+					<option value="University ">Technical University of Berlin</option>
+					<option value="mercedes">University of London</option>
+					<option value="audi">University of Paris</option>
+					<option value="audi2">University of Prague</option>
+					<option value="audi3">University of Barcelona</option>
+				</select>
+
+				<label class="label-input100" for="phone">Second choice</label>
+				<select>
+					<option value="none"></option>
+					<option value="University ">Technical University of Berlin</option>
+					<option value="mercedes">University of London</option>
+					<option value="audi">University of Paris</option>
+					<option value="audi2">University of Prague</option>
+					<option value="audi3">University of Barcelona</option>
+				</select>
+
+				<label class="label-input100" for="phone">Third choice</label>
+				<select>
+					<option value="none"></option>
+					<option value="mercedes">University of London</option>
+					<option value="audi">University of Paris</option>
+					<option value="audi2">University of Prague</option>
+					<option value="audi3">University of Barcelona</option>
+				</select>
+
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Submit
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('static/images/bg-01.jpg');">
+
+				<div class="flex-w size1 p-b-47">
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Erasmus+ exchange application
+						</span>
+
+						<span class="txt2">
+							<a href="/">Personal data</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/">Selection of university</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/">Documentation</a>
+						</span>
+
+					</div>
+				</div>
+
+				<div class="flex-w size1 p-b-47">
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Before the mobility - Learning Agreement
+						</span>
+
+						<span class="txt2">
+							<a href="/">Personal data</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/">Receiving institution</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/courses">Course selection</a>
+						</span>
+
+					</div>
+				</div>
+
+				<div class="flex-w size1 p-b-47">
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							After the mobility - Learning Agreement
+						</span>
+
+						<span class="txt2">
+							<a href="/">Personal data</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/">Receiving institution</a>
+						</span>
+
+						<span class="txt2">
+							<a href="/">Course selection</a>
+						</span>
+
+					</div>
+				</div>
+
+				<div class="flex-w size1 p-b-47">
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Final evaluation
+						</span>
+
+					</div>
+
+				</div>
+
+				<div class="flex-w size1 p-b-47">
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Log off
+						</span>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/static/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
