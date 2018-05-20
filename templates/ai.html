@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="/static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					AI recommendations
+				</span>
+
+
+
+				<p>
+				<label class="label-input100" for="phone">What do you care about the most?</label>
+			        <select>
+					<option value="none">None</option>
+					<option value="mercedes">Duration</option>
+  					<option value="Country">Country</option>
+					<option value="Budget ">Budget</option>
+					<option value="audi">Field</option>
+					<option value="audi2">ECTS credit goal</option>
+				</select>
+
+				<select>
+					<option value="none"></option>
+  					<option value="Country">5 months</option>
+					<option value="Budget ">6 months</option>
+					<option value="mercedes">7 months</option>
+					<option value="audi">8 months</option>
+					<option value="audi2">9-10 months</option>
+				</select><br/>
+				</p>				
+				
+				<p>
+				<select>
+					<option value="none">None</option>
+  					<option value="Country">Country</option>
+					<option value="audi">Field</option>
+					<option value="Budget ">Budget</option>
+					<option value="mercedes">Duration</option>
+					<option value="audi2">ECTS credit goal</option>
+				</select>
+				
+
+				<select>
+					<option value="none"></option>
+  					<option value="Country">AI</option>
+					<option value="Budget ">Hardware</option>
+					<option value="Budget ">Computer graphics</option>
+					<option value="mercedes">Security</option>
+					<option value="audi">Algorithms</option>
+					<option value="audi2">Mathematics</option>
+					<option value="audi2">Networks</option>
+				</select>
+				<br/>
+				</p>
+				
+				<p>
+				<select>
+					<option value="none">None</option>
+  					<option value="Country">Country</option>
+					<option value="Budget ">Budget</option>
+					<option value="mercedes">Duration</option>
+					<option value="audi">Field</option>
+					<option value="audi2">ECTS credit goal</option>
+				</select>
+
+				<select>
+					<option value="none"></option>
+  					<option value="Country">less than 200€</option>
+					<option value="Budget ">200€-300€</option>
+					<option value="Budget ">300€-400€</option>
+					<option value="mercedes">400€-500€</option>
+					<option value="audi">500€-600€</option>
+					<option value="audi2">600€-1000€</option>
+				</select>
+				</p>
+				
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" formaction="/ai">
+						AI recommendations
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('static/images/bg-01.jpg');">
+				<img src="/static/images/graf_ai.png" alt="graf" height=450>
+
+				<div class="flex-w size1 p-b-47">
+					<div class="flex-col size2">
+						<button class="contact100-form-btn" formaction="/statistics">
+							Back
+						</button>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/static/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+</html>
