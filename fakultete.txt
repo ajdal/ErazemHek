@@ -1,0 +1,280 @@
+Charles University in Prague, Faculty of Mathematics and Physics
+ID:CZ PRAHA07
+Country:Czech
+no_students:2
+maxlen:9
+bc:1
+msc:1
+phd:1
+Czech Technical University, Faculty of Information Technology
+ID:CZ PRAHA10
+Country:Czech
+no_students:1
+maxlen:9
+bc:1
+msc:1
+phd:1
+Darmstadt University of Applied Sciences
+ID:D DARMSTA02
+Country:Germany
+no_students:5
+maxlen:10
+bc:1
+msc:1
+phd:0
+Dublin Institute of Technology
+ID:IRL DUBLIN27
+Country:Ireland
+no_students:5
+maxlen:10
+bc:1
+msc:1
+phd:0
+Graz University of Technology
+ID:A GRAZ02
+Country:Austria
+no_students:2
+maxlen:10
+bc:1
+msc:1
+phd:1
+Hong Kong Baptist University, Department of Computer Science
+ID:HKG BAPT
+Country:HongKong
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:0
+Karlsruhe Institute of Technology, Department of Informatics/Computer Science
+ID:D KARLSRU01
+Country:Germany
+no_students:2
+maxlen:10
+bc:1
+msc:1
+phd:0
+Kaunas University of Technology, Faculty of Informatics
+ID:LT KAUNAS02
+Country:Lithuania
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:1
+Klagenfurt University, Institute of Information Technology
+ID:A KLAGENF01
+Country:Austria
+no_students:2
+maxlen:12
+bc:1
+msc:1
+phd:1
+Kyungpook National University, College of IT Engi0ering
+ID:Daegu
+Country:Korea
+no_students:4
+maxlen:5
+bc:1
+msc:1
+phd:1
+LILLE 1 University - Science and Technology
+ID:F LILLE01
+Country:France
+no_students:2
+maxlen:12
+bc:1
+msc:1
+phd:0
+Ludwig-Maximilians-University of Munich, Institute of Informatics
+ID:D MUNCHEN01
+Country:Germany
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:0
+Lulea University of Technology, Department of Computer Science and Electrical Engi0ering
+ID:S LULEA01
+Country:Sweden
+no_students:2
+maxlen:4
+bc:1
+msc:1
+phd:1
+Mälar1len University
+ID:S VASTERA01
+Country:Sweden
+no_students:5
+maxlen:10
+bc:0
+msc:1
+phd:0
+Mälar1len University
+ID:S VASTERA01
+Country:Sweden
+no_students:5
+maxlen:10
+bc:0
+msc:1
+phd:0
+Malmo University, Faculty of Technology and Society
+ID:S MALMO01
+Country:Sweden
+no_students:6
+maxlen:5
+bc:1
+msc:1
+phd:1
+Masaryk University, Faculty of Informatics, Department of Information Technologies
+ID:CZ BRNO05
+Country:Czech
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:0
+Middle East Technical University (METU), Department of Computer Engi0ering
+ID:TR ANKARA04
+Country:Turkey
+no_students:2
+maxlen:6
+bc:1
+msc:1
+phd:1
+Oulu University of Applied Sciences
+ID:SF OULU11
+Country:Finland
+no_students:5
+maxlen:10
+bc:1
+msc:1
+phd:0
+Pantheon-Sorbon0 University, Department of Mathematics and Informatics UFR27
+ID:F PARIS001
+Country:France
+no_students:2
+maxlen:5
+bc:0
+msc:1
+phd:0
+Polytechnic University of Bari
+ID:I BARI05
+Country:Italy
+no_students:1
+maxlen:5
+bc:0
+msc:0
+phd:1
+Polytechnic University of Valencia, School of Computer Science
+ID:E VALENCI02
+Country:Spain
+no_students:2
+maxlen:10
+bc:1
+msc:1
+phd:0
+Radboud University, Faculty of Social Sciences
+ID:NL NIJMEGE01
+Country:Netherlands
+no_students:2
+maxlen:6
+bc:1
+msc:1
+phd:0
+Reykjavík University, School of Computer Science
+ID:IS REYKJAV05
+Country:Iceland
+no_students:1
+maxlen:10
+bc:1
+msc:1
+phd:1
+Sapienza University of Rome, Faculty of Information Engi0ering, Informatics and Statistics
+ID:I ROMA01
+Country:Italy
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:1
+Tallinn University of Technology
+ID:EE TALLINN04
+Country:Estonia
+no_students:2
+maxlen:10
+bc:0
+msc:1
+phd:0
+Technical University of Berlin, Faculty IV - Electrical Engi0ering and Computer Science
+ID:D BERLIN02
+Country:Germany
+no_students:5
+maxlen:10
+bc:1
+msc:1
+phd:1
+The AGH University of Science and Technology, Faculty of Computer Science, Electronics and Telecomunications
+ID:PL KRAKOW02
+Country:Poland
+no_students:2
+maxlen:6
+bc:1
+msc:1
+phd:0
+Tuebingen University
+ID:D TUBINGE01
+Country:Germany
+no_students:1
+maxlen:12
+bc:1
+msc:1
+phd:0
+University College Cork, Department of Computer Science
+ID:IRL CORK01
+Country:Ireland
+no_students:2
+maxlen:3
+bc:1
+msc:1
+phd:1
+University of Barcelona, Faculty of Mathematics
+ID:E BARCELO01
+Country:Spain
+no_students:2
+maxlen:6
+bc:1
+msc:1
+phd:0
+University of Coimbra, Faculty of Sciences and Technology, Informatics Engi0ering Department
+ID:P COIMBRA01
+Country:Portugal
+no_students:2
+maxlen:10
+bc:1
+msc:1
+phd:1
+University of Erlangen-Nürnberg
+ID:D ERLANGE01
+Country:Germany
+no_students:2
+maxlen:5
+bc:1
+msc:1
+phd:0
+University of Leuven – KU Leuven, Faculty of Engi0ering Science, Department of Computer Science
+ID:B LEUVEN01
+Country:Belgium
+no_students:2
+maxlen:10
+bc:0
+msc:1
+phd:0
+University of Padova, Department of Information Engi0ering
+ID:I PADOVA01
+Country:Italy
+no_students:3
+maxlen:10
+bc:0
+msc:1
+phd:1 
